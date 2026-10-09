@@ -6,6 +6,9 @@
 	<title>Reservaciones  </title>
     <link rel="stylesheet" href="css/estilos-rutas.css">
 </head>
+<body>
+
+
     <header>
             <h1>Portal Digital Ecoturismo | Reservaciones</h1>
             <p>Explora la bella de la naturaleza y cultura houndreña de un solo clic</p>
@@ -18,3 +21,64 @@
                 <a href="reservaciones.html">Reservaciones</a>
             </nav>
     </section>
+
+    <section>
+        <h2>Realiza tu Reservación</h2>
+        <p>¡Reserva tu experiencia de ecoturismo hoy mismo!</p>
+        <form>
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre"  placeholder="Ingresa tu nombre completo" required><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required><br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required><br><br>
+                
+                <label for="destino">Destino:</label>
+                <select id="destino" name="destino" required>
+                    <option value="">Selecciona un destino</option>
+                    <option value="ruta_lenca">Ruta Lenca</option>
+                    <option value="parque_nacional">Parque Nacional Celaque</option>
+                    <option value="ruta_cultural">Ruta Maya</option>
+                    <option value="playa_roatan">Islas de la Bahia</option>
+                    <option value="parque_nacional_copan">Parque Nacional Pico Bonito</option>
+                </select>
+                <br><br>
+                <label for="personas">Número de Personas:</label>
+                <input type="number" id="personas" name="personas" min="1" placeholder="Ingresa el número de personas" required><br><br>
+                <label for="fecha">Fecha de Inicio:</label>
+                <input type="date" id="fecha" name="fecha" required><br><br>
+                <label for="fecha_regreso">Fecha de Regreso:</label>
+                <input type="date" id="fecha_regreso" name="fecha_regreso" required><br><br>
+
+                <label for="hospedaje">Tipo de Hospedaje:</label>
+                <select id="hospedaje" name="hospedaje" required>
+                    <option value="">Selecciona un tipo de hospedaje</option>
+                    <option value="hotel">Cabaña Ecologica</option>
+                    <option value="hostal">Hotel Colonial</option>
+                    <option value="cabaña">Campamento de Montaña</option>
+                </select>
+                <br><br>
+                <label for="guia" >Guía Turístico:</label>
+                <input type="checkbox" id="guia" name="guia" value="si"> Sí, deseo un guía turístico<br><br>
+
+                <label for="compromisos">Se compromete a aceptar todos los  terminos y condiciones de la empresa
+                    y de la conservacion ecologica del medio ambiente y proteccion del patrimonio cultural
+                    del pais:</label>
+                <input type="checkbox" id="compromisos" name="compromisos" required>
+                <br><br>
+                <input type="submit" value="Realizar Reservación">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="pie-de-pagina">
+        <p>Portal Digital Ecoturismo &copy; 2026. 
+            Todos los Derechos Reservados</p>
+    </footer>
+
+</body>
+</html>
