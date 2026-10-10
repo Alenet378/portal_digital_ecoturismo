@@ -3,12 +3,12 @@
     --negro: #000000;
     --color-primario: #3eeb47;     
     --color-acento: #fdfa2c;
-    --color-terciario: #15cdee;
-    --color-secundario: #f97316;       
+    --color-secundario: #f97316;  
+    --color-terciario: #15cdee;     
     --color-fondo: #e6b6b0;        
     --color-texto: #1c1917;        
     --radio-platillo: 12px;        
-    --espaciado: 1rem;   
+    --espaciado: 1.5rem;   
     --margenes: 20px;        
 }
 
@@ -31,12 +31,12 @@ header {
     margin-bottom: var(--margenes);
 }
 
-a {
+nav a {
     color: var(--color-texto);
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     color: var(--color-secundario);
 }
 
