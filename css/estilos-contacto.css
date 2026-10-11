@@ -3,12 +3,14 @@
     --negro: #000000;
     --color-primario: #3eeb47;     
     --color-acento: #fdfa2c;
-    --color-secundario: #f97316;  
-    --color-terciario: #15cdee;     
-    --color-fondo: #e6b6b0;        
-    --color-texto: #1c1917;        
+    --color-terciario: #15cdee;
+    --color-secundario: #0c1cfa;
+    --color-cuarto: #13e28c;
+    --color-fondo: #e9d8d6;        
+    --color-texto: #1c1917;    
+    --color-quinto: #cce988;   
     --radio-platillo: 12px;        
-    --espaciado: 1.5rem;   
+    --espaciado: 1rem;   
     --margenes: 20px;        
 }
 
@@ -58,3 +60,47 @@ footer {
     border-style: solid;
     margin-top: var(--margenes);
 }
+
+.seccion-formulario {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: var(--margenes);
+    border-radius: var(--radio-platillo);
+    background-color: var(--color-quinto);
+    padding: var(--espaciado);
+}
+
+input, textarea {
+    width: 100%;
+    background-color: #7dd6aa;
+    border: 1px solid #86ec71;
+    border-radius: 4px;
+    color: #22eee4;
+    font-size: 1rem;
+    padding: 8px 6px;
+    margin-bottom: 1rem;
+}
+
+.boton {
+    width: 100%;
+    background-color: #04f34c;     /* Rojo oficial de Netflix */
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1.25rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.ubicacion, .informacion {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: var(--margenes);
+    border-radius: var(--radio-platillo);
+    background-color: var(--color-cuarto);
+    padding: var(--espaciado);
+}
+

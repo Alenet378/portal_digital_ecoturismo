@@ -4,14 +4,15 @@
     --color-primario: #3eeb47;     
     --color-acento: #fdfa2c;
     --color-terciario: #15cdee;
-    --color-secundario: #f97316;       
-    --color-fondo: #e6b6b0;        
-    --color-texto: #1c1917;        
+    --color-secundario: #0c1cfa;
+    --color-cuarto: #13e28c;
+    --color-fondo: #e9d8d6;        
+    --color-texto: #1c1917;    
+    --color-quinto: #cce988;   
     --radio-platillo: 12px;        
     --espaciado: 1rem;   
     --margenes: 20px;        
 }
-
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
@@ -58,3 +59,67 @@ footer {
     border-style: solid;
     margin-top: var(--margenes);
 }
+
+
+.bienvenida {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: var(--margenes);
+}
+
+.pico-bonito {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: var(--margenes);
+    border-radius: var(--radio-platillo);
+    background-color: var(--color-cuarto);
+    padding: var(--espaciado);
+}
+
+.celaque {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: var(--margenes);
+    border-radius: var(--radio-platillo);
+    background-color: var(--color-cuarto);
+    padding: var(--espaciado);
+}
+
+.copan {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: var(--margenes);
+    border-radius: var(--radio-platillo);
+    background-color: var(--color-cuarto);
+    padding: var(--espaciado);
+}
+.titulo-destinos {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: var(--margenes);
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.destinos-emblematicos article img {
+    width: 100%;
+    height: 250px;
+    border-radius: var(--radio-platillo);
+    margin-bottom: var(--margenes);
+    border: 2px solid var(--color-secundario);
+}
+
+.destinos-emblematicos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.destinos-emblematicos article {
+    flex: 1;
+    min-width: 0;
+}
+
+

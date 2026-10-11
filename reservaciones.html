@@ -23,20 +23,20 @@
             </nav>
     </section>
 
-    <section>
-        <h2>Realiza tu Reservación</h2>
-        <p>¡Reserva tu experiencia de ecoturismo hoy mismo!</p>
-        <form>
+    <section class="seccion-formulario">
+        <h2 class="titulo-formulario">Realiza tu Reservación</h2>
+        <p class="parrafo-formulario">¡Reserva tu experiencia de ecoturismo hoy mismo!</p>
+        <form class="formulario">
             <fieldset>
                 <legend>Información Personal</legend>
                 <label for="nombre">Nombre Completo:</label>
-                <input type="text" id="nombre" name="nombre"  placeholder="Ingresa tu nombre completo" required><br><br>
+                <input type="text" class="input" id="nombre" name="nombre"  placeholder="Ingresa tu nombre completo" required><br><br>
 
                 <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required><br><br>
+                <input type="email" class="input" id="email" name="email" placeholder="Ingresa tu correo electrónico" required><br><br>
 
                 <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required><br><br>
+                <input type="tel" class="input" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required><br><br>
                 
                 <label for="destino">Destino:</label>
                 <select id="destino" name="destino" required>
@@ -49,7 +49,7 @@
                 </select>
                 <br><br>
                 <label for="personas">Número de Personas:</label>
-                <input type="number" id="personas" name="personas" min="1" placeholder="Ingresa el número de personas" required><br><br>
+                <input type="number" class="input" id="personas" name="personas" min="1" placeholder="Ingresa el número de personas" required><br><br>
                 <label for="fecha">Fecha de Inicio:</label>
                 <input type="date" id="fecha" name="fecha" required><br><br>
                 <label for="fecha_regreso">Fecha de Regreso:</label>
@@ -71,7 +71,7 @@
                     del pais:</label>
                 <input type="checkbox" id="compromisos" name="compromisos" required>
                 <br><br>
-                <input type="submit" value="Realizar Reservación">
+                <input  class="boton"type="submit" value="Realizar Reservación">
             </fieldset>
         </form>
     </section>
